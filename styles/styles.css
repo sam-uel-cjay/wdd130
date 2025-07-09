@@ -3,9 +3,45 @@ nav {
     padding: 10px;
 }
 
-nav a { 
+nav a {
     color: white;
     display: block;
     padding: 20px;
 }
 
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgb(0, 0, 0 / 0.1);
+    padding: 1rem;
+    background-color: darkslateblue;
+    color: aliceblue;
+    text-align: center;
+}
+
+aside img {
+    width: 150;
+    height: 150;
+}
+
+main img {
+    width: 150;
+    height: 150;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px silver;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #aaa;
+    text-align: center;
+}
