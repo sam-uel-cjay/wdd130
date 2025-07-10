@@ -24,13 +24,13 @@ aside {
 }
 
 aside img {
-    width: 150;
-    height: 150;
+    width: 200px;
+    height: auto;
 }
 
 main img {
-    width: 150;
-    height: 150;
+    width: 200px;
+    height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px silver;
