@@ -67,7 +67,20 @@ nav {
   padding: 40px;
   background-color: silver;
 }
-  
+
+.intro-box h1 {
+  text-align: center;
+  font-family: var(--heading-font);
+  margin-bottom: 20px;
+  color: #000;
+}
+
+.intro-inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  align-items: center;
+}  
 .intro-text h1 {
   text-align: center;
   color: black;
