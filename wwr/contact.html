@@ -30,6 +30,7 @@
                 <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
+         <h1>Contact White Water Rafting</h1>
     </header>
 
     <main>
@@ -39,6 +40,12 @@
         <p>Phone: +234 813 2761708</p>
         <p>Email: whitewaterrafting@gmail.com</p>
         </section>
+
+        <section class="map-frame">
+        <h2>Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2135.0383746178773!2d-83.14535599822663!3d35.808758317960724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20water%20rafting!5e1!3m2!1sen!2sng!4v1753802087945!5m2!1sen!2sng" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </section>
 
     <section class="employee-photos">
         <h2>Meet Our Team</h2>
@@ -65,23 +72,34 @@
             <label for="email">Email Address:</label>
             <input type="email" id="email" name="email" required>
 
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
+            <p>Purpose Of Contact</p>
+            <label>
+                <input type="radio" name="purpose" id="question" value="question">
+                I have a question
+            </label><br>
 
             <label>
-                <input type="checkbox" name="subscribe">
-                Please subscribe me to the monthly newsletter
-            </label>
+                <input type="radio" name="purpose" id="reservation" value="reservation">
+                I want to make a reservation
+            </label><br>
+            
+            <label>
+                <input type="radio" name="purpose" id="feedback" value="feedback">
+                I want to give feedback
+            </label><br>
+
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <div class="checkbox-group">
+                 <input type="checkbox" id="subscribe" name="subscribe">
+                 <label for="subscribe">Subscribe to our monthly Newsletter</label>
+            </div>
 
             <button type="submit">Send Message</button>
         </form>
     </section>
-    <section class="map">
-        <h2>Location</h2>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2135.0383746178773!2d-83.14535599822663!3d35.808758317960724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1swhite%20water%20rafting!5e1!3m2!1sen!2sng!4v1753802087945!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-    </section>
-   
     </main>
 
     <footer class="footer-box">
