@@ -201,7 +201,6 @@ nav {
 }
 
 
-
 /* My Contact Page */
 .contact-info,
 .contact-form,
@@ -323,4 +322,276 @@ nav {
   height: 300px;
   border-radius: 8px;
 }
+
+
+
+/* My Homep page */
+.hero {
+  position: relative;
+  background-image: url("../images/rafthing_hero.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero .cta-button {
+  background-color: #f9c74f;
+  color: #333;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .cta-button:hover {
+  background-color: #f9844a;
+  color: white;
+}
+
+.newsletter {
+  background-color: #e0f7fa;
+  padding: 2rem;
+  text-align: center;
+  margin: 2rem 0;
+  border-radius: 10px;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #0077b6;
+}
+
+.newsletter p {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.75rem;
+  width: 250px;
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.75rem 1.5rem;
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.newsletter button:hover {
+  background-color: #023e8a;
+}
+
+.cta-section {
+  background-color: #e0f2f1;
+  padding: 60px 20px;
+}
+
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cta-image {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cta-box {
+  padding: 40px 30px;
+  text-align: center;
+  width: 50%;
+}
+
+.cta-box h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #006064;
+}
+
+.cta-box p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #00796b;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #004d40;
+}
+
+/* incase of mobile responsiveness */
+@media (max-width: 768px) {
+  .cta-container {
+    flex-direction: column;
+  }
+
+  .cta-image,
+  .cta-box {
+    width: 100%;
+  }
+
+  .cta-box {
+    padding: 30px 20px;
+  }
+}
+
+.grid-showcase {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 50px 20px;
+  background-color: #f5f5f5;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border: 6px solid #d2b48c;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+  margin-top: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.trips-overview {
+  padding: 60px 20px;
+  background-color: #f0f8ff;
+  text-align: center;
+}
+
+.trip-cards {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.trip {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  padding: 20px;
+  text-align: left;
+}
+
+.trip img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.trip h3 {
+  margin: 15px 0 10px;
+  color: #003049;
+}
+
+
+.trip-table-section {
+  padding: 60px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.trip-table-section th {
+  text-align: center;
+}
+
+.trip-table-section td {
+  text-align: center;
+}
+
+.trip-table-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+  
+.trip-table {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 1rem;
+}
+
+.trip-table th,
+.trip-table td {
+  border: 1px solid #ccc;
+  padding: 15px;
+}
+
+.trip-table th {
+  background-color: #003049;
+  color: #fff;
+  font-weight: bold;
+}
+
+.trip-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
 
